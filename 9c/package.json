@@ -1,0 +1,27 @@
+{
+    "name": "9c",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "tsc": "tsc",
+        "dev": "ts-node index.ts",
+        "lint": "eslint --ext .ts",
+        "start": "node build/index.js"
+    },
+    "author": "",
+    "license": "ISC",
+    "devDependencies": {
+        "@types/express": "^4.17.13",
+        "@typescript-eslint/eslint-plugin": "^5.9.0",
+        "@typescript-eslint/parser": "^5.9.0",
+        "eslint": "^8.6.0",
+        "eslint-config-prettier": "^8.3.0",
+        "prettier": "^2.5.1",
+        "ts-node-dev": "^1.1.8",
+        "typescript": "^4.5.4"
+    },
+    "dependencies": {
+        "express": "^4.17.2"
+    }
+}
