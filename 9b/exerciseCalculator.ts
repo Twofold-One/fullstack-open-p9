@@ -1,7 +1,4 @@
-export const calculateExercises = (
-    target: number,
-    hoursPerDay: Array<number>
-) => {
+const calculateExercises = (target: number, hoursPerDay: Array<number>) => {
     const periodLength = hoursPerDay.length;
     const trainingDays = hoursPerDay.filter((day) => day).length;
     const average =
@@ -24,7 +21,9 @@ export const calculateExercises = (
     };
 };
 
-const a = Number(process.argv[2]);
-const b = process.argv.slice(3).map((arg) => Number(arg));
+// const a = Number(process.argv[2]);
+// const b = process.argv.slice(3).map((arg) => Number(arg));
 
-console.log(calculateExercises(a, b));
+// console.log(calculateExercises(a, b));
+
+export default calculateExercises;

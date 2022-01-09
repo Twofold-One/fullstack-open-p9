@@ -1,4 +1,4 @@
-export const calculateBmi = (height: number, weigth: number): string => {
+const calculateBmi = (height: number, weigth: number): string => {
     const BMI = weigth / (height / 100) ** 2;
 
     if (BMI < 16) {
@@ -19,6 +19,8 @@ export const calculateBmi = (height: number, weigth: number): string => {
     return 'Obese (Class III)';
 };
 
-const a = Number(process.argv[2]);
-const b = Number(process.argv[3]);
-console.log(calculateBmi(a, b));
+// const a = Number(process.argv[2]);
+// const b = Number(process.argv[3]);
+// console.log(calculateBmi(a, b));
+
+export default calculateBmi;
